@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'soren468:topscope',
+  name: 'sorenpeterson:topscope',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',
@@ -17,6 +17,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('soren468:topscope');
+  api.use('sorenpeterson:topscope');
   api.addFiles('topscope-tests.js');
 });
